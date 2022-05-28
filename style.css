@@ -1,0 +1,647 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap');
+/* Global css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.heading-one{
+
+}
+.heading-one{
+    
+}
+.heading-two{
+    font-size: 30px;
+    font-weight: 600;
+}
+.small-heading{
+font-size: 23px;
+font-weight: 500;
+}
+.btn{
+color: rgb(17, 17, 17);
+background-color: #00fff0;
+font-size: 16px;
+font-weight: 500;
+padding: 10px 25px;
+border-radius: 10px;
+transition: ease-in-out 0.8s;
+}
+.btn:hover{
+    box-shadow: 0px 0px 6px #01ffeec5;
+}
+p{
+font-size: 14px;
+color: #97a4be;
+}
+
+/* Layout Css */
+.row{
+    width: 100%;
+    float: left;
+}
+section{
+padding: 100px 0px ;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 { width: 16.66%;
+    float: left;}
+.col-3 {
+    width: 25%;
+    float: left;}
+.col-4 {width: 33.33%;
+    float: left;}
+.col-5 {width: 41.66%;
+    float: left;}
+.col-6 {width: 50%;
+    float: left;}
+.col-7 {width: 58.33%;
+    float: left;}
+.col-8 {width: 66.66%;
+    float: left;}
+.col-9 {width: 75%;
+    float: left;}
+.col-10 {width: 83.33%;
+    float: left;}
+.col-11 {width: 91.66%;
+    float: left;}
+.col-12 {width: 100%;
+    float: left;}
+
+
+
+
+
+
+
+
+
+
+
+    /* Header Part Start */
+header{
+        background-color: #223047 ;
+        color: #fff; 
+    }
+    nav{
+        padding: 20px 0px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.555);
+    }
+    .logo{
+
+    }
+    .menu{
+
+    }
+    .menu ul{
+       text-align: center; 
+       padding: 5px 0px ;
+    }
+    .menu li{
+        list-style: none;
+        display: inline-block;
+    }
+    .menu a{
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        margin: 0px 10px;
+    }
+    .btn-part{
+text-align: end;
+    }
+    .hero{ 
+        padding-top: 100px;
+    }
+    .hero-writing-part{
+        padding: 100px;
+        padding-left: 130px;
+        margin-top: 70px;
+    }
+    .hero-writing-part h1{
+        
+    }
+    .hero-writing-part p{
+        margin: 45px 0px;
+        
+    }
+    .hero-btn{
+
+    }
+    .hero-btn button{
+     margin: 20px 15px;  
+     margin-left: 0px; 
+    }
+    .btn-light{
+        background-color:transparent;
+       color: #ffffff;
+       border: 1px solid;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px 25px;
+        border-radius: 10px;  
+        transition: ease-in-out 0.8s;
+    }
+    .btn-light:hover{
+        background-color: #ffffff;
+        color: black;
+    }
+    .hero-img-part{
+      text-align: center; 
+      position: relative;
+      top: 100px; 
+    }
+    .hero-img-part img{
+        
+    }
+    /* Header Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+    /* About part Start */
+    #about{ 
+        text-align: center;
+        padding-top: 200px;
+    }
+    .aboput-wp{
+
+    }
+    .aboput-wp h2{
+
+    }
+    .underline{
+        border-top: 5px solid#00fff0;
+        display: block;
+        width: 8% ;
+        margin: 50px auto ;
+    }
+    .about-box-p{
+
+    }
+    .box-part{
+        padding: 20px;
+    }
+    .box-part img{
+      height: 100px;  
+    }
+    .box-part h2{
+        margin: 15px 0px;
+    }
+    .box-part p{
+        
+    }
+
+    /* About part End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Info Part Start */
+#info{
+padding: 0;
+}
+.blank{
+height: 300px;
+background: #323a4d;
+}
+.info-part{
+padding: 65px;
+max-height: 300px;
+}
+.info-part h3{
+    
+}
+.info-part p{
+    margin: 20px 0px;
+    width: 86%;
+}
+
+     /* Info Part End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* App Presentation Part Start */
+     #app{
+padding-bottom: 0px;
+     }
+     .app-top{
+
+     }
+     .app-top-wp{
+         text-align: end;
+         padding: 50px 0px;
+         padding-right: 40px;
+       
+     }
+     .app-top-wp h3{
+
+     }
+    .app-top-wp p{
+        padding: 40px 0px ;
+    }
+    .app-top-wp a button{
+
+    }
+
+     .app-top-imgp{
+
+     }
+     .app-top-imgp img{
+         
+     }
+     .app-middle{
+         margin-top: 50px;
+     }
+     .app-middle-img-p{
+text-align: center;
+     }
+     .app-middle-img-p img{
+         padding: 50px  ;
+         padding-left: 50px;
+     }
+     .app-middle-box-p{
+         padding: 50px 0px;
+         
+     }
+     .app-box{
+         padding: 30px ;
+         margin: 10px 0px ;
+         box-shadow: 0px 1px 2px rgb(117, 116, 116);
+         border-radius: 5px;
+         transition: ease-in-out 0.8s;
+     }
+     .app-box:hover{
+         background-color: #00fff0;
+         box-shadow: 0px 0px 6px #00fff0;
+     }
+     .app-box i{
+         font-size:23px;
+         margin: 0px 15px;
+     }
+     .app-box img{
+         height: 25px;
+         margin: 0px 12px;
+        
+     }
+     .app-box h3{
+         display:inline-block;
+     }
+     .app-bottom{
+background-color: #f5f6fa;
+     }
+     .app-bottom-wp{
+text-align: end;
+     }
+     .app-bottom-wp h2{
+
+     }
+     .app-bottom-wp div{
+margin: 20px;
+     }
+     .app-bottom-wp div i{
+         font-size: 10px;
+         background-color: #00fff0;
+         padding: 3px;
+         border-radius: 50%;
+         margin-right: 10px;
+     }
+     .app-bottom-wp p{
+
+     }
+     .bottom-wp{
+         padding-left: 200px;
+         padding-top: 50px;
+     }
+     .app-bottom-imgp{
+text-align: center;
+     }
+     .app-bottom-imgp img{
+
+     }
+     /* App Presentation Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* Video Part Start */
+#video{
+text-align: center;
+background-color: #223047;
+}
+.description{
+
+}
+.description a{
+
+}
+.description a img{
+
+}
+.description h3{
+margin: 20px 0px 40px 0px;
+color: rgba(255, 255, 255, 0.712);
+}
+.description p{
+
+}
+     /* Video Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* Download Part Start */
+     #download{
+         text-align: center;
+     }
+     .d-wp{
+
+     }
+     .d-wp h2{
+margin-bottom: 30px;
+     }
+     .d-wp p{
+       margin: 30px;
+     }
+     .d-wp a{
+
+     }
+     .d-wp a button{
+border-radius: 0;
+font-size: 17px;
+padding: 8px 30px;
+     }
+     /* Download Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+     /* Quote Part Start */
+     #quote{
+         padding: 100px 0px;
+         background-color: #223047;
+     }
+     .q-wp{
+        
+         text-align: center;
+     }
+     .q-wp p{
+         color: #00fff0;
+     }
+     /*Quote Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* Add-app Part Start */
+     #app-add{
+
+     }
+     .app-add-imgp{
+         text-align: center;
+     }
+     .app-add-imgp img{
+
+     }
+     .app-add-wp{
+         padding: 150px 0px;
+     }
+     .app-add-wp h1{
+         color: #233148;
+     }
+     .app-add-wp p{
+         padding: 25px 0px;
+     }
+     .app-add-wp a{
+               
+     }
+     .app-add-wp a img{
+        padding-top: 20px; 
+        padding-right: 20px;
+     }
+     .big-btn-part{
+         text-align: center;
+     }
+     .big-btn{
+         width: 20%;
+         padding: 20px;
+         border-radius: 0px;
+         position: relative;
+         top: -25px;
+     }
+     /* Add-app Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+     /* Footer Widget Part Start */
+     #footer-widget{
+
+     }
+     .footer-link-part{
+        margin-left: 90px;
+     }
+     .linked-list{
+         width: 20%;
+         float: left;
+         text-align: start;
+     }
+     .linked-list h6{
+
+     }
+     .linked-list ul{
+         font-size: 16px;
+        margin: 20px 0px;
+     }
+     .linked-list li{
+        list-style: none;
+        margin: 10px 0px ;
+        transition: ease-in-out 0.4s;
+        padding: 5px 0px;
+     }
+     .linked-list a{ 
+         font-size: 18px;
+         margin: 200px 0px;
+     }
+     .linked-list li:hover{
+         background-color:#00fff0;
+    }
+
+
+    #subscribe{
+       
+    }
+    .subscribe-wp{
+        text-align: center;
+        padding-top: 50px;
+        margin: 100px;
+    }
+    .subscribe-wp h3{
+
+    }
+    .subscribe-wp p{
+padding-top: 30px;
+    }
+    .last-btn{
+
+    }
+    .last-btn a{
+        
+    } 
+    .last-btn a button{
+        position: relative;
+        top: -40px;
+        left: 780px;
+        border-radius: 0;
+    }
+     /* Footer Widget Part End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* Footer Part Start */
+
+     footer{
+background-color: #223047;
+padding: 25px 0px;
+     }
+     .copyright{
+
+     }
+     .copyright p{
+font-size: 14px;
+color: #00fff0;
+margin-left: 60px;
+     }
+     .social-links{
+text-align: center;
+     }
+     .social-links i{
+color: white;
+font-size: 20px;
+padding: 0px 20px;
+transition: ease-in-out 0.6s;
+     }
+     .social-links i:hover{
+         color: #00fff0;
+    }
+     /* Footer  Part End */
